@@ -1,0 +1,35 @@
+﻿<forms:WindowsPage x:Name="MIRI"
+    x:Class="MIRI.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:forms="using:Xamarin.Forms.Platform.UWP"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MIRI.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <forms:WindowsPage.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black"/>
+            <GradientStop Color="#FF0F18E0" Offset="1"/>
+        </LinearGradientBrush>
+    </forms:WindowsPage.Background>
+
+    <Grid RenderTransformOrigin="0.461,0.5">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF0F18E0" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="13*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="BTN_4" Content="" HorizontalAlignment="Left" Margin="26,323,0,0" VerticalAlignment="Top" Height="130" Width="150" Grid.Column="1" Background="#330FDEFF"/>
+        <Button x:Name="BTN_3" Content="" HorizontalAlignment="Left" Margin="55,322,0,0" VerticalAlignment="Top" Height="130" Width="150" Background="#330FDEFF"/>
+        <Button x:Name="BTN__" Content="" HorizontalAlignment="Left" Margin="55,502,-211,0" VerticalAlignment="Top" Height="130" Width="150" Grid.ColumnSpan="2" Background="#330FDEFF"/>
+        <Button x:Name="BTN_1" Content="" HorizontalAlignment="Left" Margin="55,137,-211,0" VerticalAlignment="Top" Height="130" Width="150" Background="#330FDEFF" Grid.ColumnSpan="2"/>
+        <Button x:Name="BTN_2" Content="" HorizontalAlignment="Left" Margin="26,139,0,0" VerticalAlignment="Top" Height="130" Width="150" Grid.Column="1" Background="#330FDEFF"/>
+        <Button x:Name="BTN__1" Content="" HorizontalAlignment="Left" Margin="26,503,0,0" VerticalAlignment="Top" Height="130" Width="156" Grid.Column="1" Background="#330FDEFF"/>
+    </Grid>
+</forms:WindowsPage>
