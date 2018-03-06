@@ -31,7 +31,7 @@
         </Button>
         <Button x:Name="BTN__" Content="" HorizontalAlignment="Left" Margin="55,502,-211,0" VerticalAlignment="Top" Height="130" Width="150" Grid.ColumnSpan="2" Background="#330FDEFF"/>
         <Button x:Name="BTN_1" HorizontalAlignment="Left" Margin="55,137,-211,0" VerticalAlignment="Top" Height="130" Width="150" Background="#330FDEFF" Grid.ColumnSpan="2" Click="BTN_1_Click">
-            <TextBox Margin="-28,-29.4,-28.4,-18.8" Text="QR" VerticalAlignment="Top" Height="53"/>
+            <TextBox Margin="-28,-29,-28,-19" Text="QR" HorizontalAlignment="Left" Width="64"/>
         </Button>
         <Button x:Name="BTN_2" HorizontalAlignment="Left" Margin="26,139,0,0" VerticalAlignment="Top" Height="130" Width="150" Grid.Column="1" Background="#330FDEFF" Click="BTN_2_Click">
             <TextBox HorizontalAlignment="Left" Margin="-34,-16.6,-18.6,-10.2" Text="Colaberators " VerticalAlignment="Top" Height="50" Width="115"/>
