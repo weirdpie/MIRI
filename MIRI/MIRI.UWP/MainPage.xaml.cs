@@ -23,5 +23,23 @@ namespace MIRI.UWP
 
             LoadApplication(new MIRI.App());
         }
+
+        private void BTN_1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(QR),null);
+         
+        }
+
+        private void BTN_2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Colaborators), null);
+           
+        }
+
+        private void BTN_3_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Settings), null);
+           
+        }
     }
 }
